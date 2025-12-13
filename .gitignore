@@ -211,3 +211,9 @@ Step1/terraform/terraform.tfstate
 Step1/terraform/terraform.tfstate.backup
 Step1/terraform/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.56.0/windows_amd64/LICENSE.txt
 Step1/terraform/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.56.0/windows_amd64/terraform-provider-azurerm_v4.56.0_x5.exe
+infra/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.56.0/windows_amd64/LICENSE.txt
+infra/.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.2/windows_amd64/terraform-provider-azurerm_v3.0.2_x5.exe
+infra/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.56.0/windows_amd64/terraform-provider-azurerm_v4.56.0_x5.exe
+infra/terraform.tfstate
+infra/terraform.tfstate.backup
+*.hcl
