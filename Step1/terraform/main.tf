@@ -3,7 +3,7 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "~> 3.0.2"
+      version = "~> 4.56.0"
     }
   }
 
@@ -26,13 +26,9 @@ resource "azurerm_storage_account" "sac" {
   location                 = azurerm_resource_group.rgc.location
   account_tier             = "Standard"
   account_replication_type = "LRS"
-  
-  static_website {
-    index_document     = "resume.html"
-  }
 }
 
-//resource "azurerm_storage_account_static_website" "example" {
-//  storage_account_id = azurerm_storage_account.sac.id
-// index_document     = "resume.html"
-//}
+resource "azurerm_storage_account_static_website" "example" {
+  storage_account_id = azurerm_storage_account.sac.id
+index_document     = "resume.html"
+}
