@@ -50,7 +50,6 @@
                     <li class="current"><a class="smoothscroll" href="#hero">Home</a></li>
                     <li><a class="smoothscroll" href="#about">About</a></li>
                     <li><a class="smoothscroll" href="#resume">Resume</a></li>
-                    <li><a class="smoothscroll" href="#contact">Say Hello</a></li>
                 </ul>
             </nav>
         </div> <!-- end row -->
@@ -80,7 +79,7 @@
                     </h3>
 
                     <div class="s-hero__content-social">
-                        <a href="#0"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href="https://github.com/mishamessouu" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
                         <a href="https://www.linkedin.com/in/michel-messo"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
                     </div>
 
@@ -111,11 +110,17 @@
             </div>
             <div class="column large-9 tab-12 s-about__content">
                 <h3>About This Project</h3>
-                <p>
-                This website was built as part of the Cloud Resume Challenge, a hands-on project designed to demonstrate cloud architecture and full-stack development skills. 
-                The challenge involved deploying a resume website on Azure using Infrastructure as Code, implementing a serverless visitor counter with Azure Cosmos DB, and automating the deployment pipeline. 
-                This project showcases practical experience with cloud services, CI/CD workflows, frontend development, and backend API integration, all while following cloud-native best practices.
-                </p>
+    <p>
+        This website was built as part of the Cloud Resume Challenge to gain hands-on experience with modern cloud infrastructure and deployment workflows.
+        Rather than relying on managed platforms, I chose to build and configure the core components myself using Microsoft Azure and later Terraform to implement Infrastructure as Code.
+    </p>
+    <p>
+        The project involved provisioning a static website using Azure Storage, placing it behind Azure Front Door for global HTTPS delivery, and managing all infrastructure declaratively with Terraform.
+        DNS configuration and custom domain routing were handled explicitly to better understand how traffic flows from the browser to the cloud edge and backend services.
+    </p>
+    <p>
+        The page also has a serverless visitor counter built with the Azure Functions Python SDK connected to a Cosmos DB, along with a CI/CD pipeline to automate deployments. For more details, please visit my <a href="https://github.com/mishamessouu" target="_blank" rel="noopener noreferrer">GitHub</a>.
+    </p>
             </div>
         </div> <!-- end row -->
 
@@ -134,7 +139,7 @@
                 <div class="resume-block">
 
                     <div class="resume-block__header">
-                        <h4 class="h3">Transdev Sverige</h4>
+                        <h4 class="h3"><a href="https://transdev.se/" target="_blank" rel="noopener noreferrer">Transdev Sverige</a></h4>
                         <p class="resume-block__header-meta">
                             <span>Data Engineering Project</span> 
                             <span class="resume-block__header-date">
@@ -155,7 +160,7 @@
                 <div class="resume-block">
 
                     <div class="resume-block__header">
-                        <h4 class="h3">PrecisIT (& Klimatkollen)</h4>
+                        <h4 class="h3"><a href="https://www.precisit.se/#/" target="_blank" rel="noopener noreferrer">PrecisIT (& Klimatkollen)</a></h4>
                         <p class="resume-block__header-meta">
                             <span>Bachelore Thesis</span> 
                             <span class="resume-block__header-date">
@@ -176,7 +181,7 @@
                   <div class="resume-block">
 
                     <div class="resume-block__header">
-                        <h4 class="h3">Royal Streaming</h4>
+                        <h4 class="h3"><a href="https://royalstreaming.com/" target="_blank" rel="noopener noreferrer">Royal Streaming</a></h4>
                         <p class="resume-block__header-meta">
                             <span>IT Support</span> 
                             <span class="resume-block__header-date">
@@ -265,44 +270,14 @@
     </section> <!-- end s-resume -->
 
 
-    <!-- contact
-    ================================================== -->
-    <section id="contact" class="s-contact target-section">
-
-        <div class="row s-contact__header">
-            <div class="column large-12">
-                <h3 class="section-header-allcaps">Say Hello</h3>
-            </div>
-        </div>
-
-        <div class="row s-contact__content">
-
-            <div class="column large-7 medium-12">
-
-                <h4 class="huge-text">                    
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                </h4>
-
-            </div>
-
-            <div class="column large-4 medium-12">
-
-                <div class="row contact-infos">
-                    <div class="column large-12 medium-6 tab-12">
-            </div>
-        </div> <!-- s-contact__content -->
-
-    </section> <!-- end s-contact -->
-    
-
     <!-- footer
     ================================================== -->
     <footer class="s-footer">
         <div class="row">
             <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
                 <ul class="s-footer__social">
-                    <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                    <li><a href="#0"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/mishamessouu" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/michel-messo"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
 
